@@ -29,5 +29,12 @@ document.compatMode正好派上用場，它有兩種可能的返回值：BackCom
 - CSS1Compat Standards-compliant mode is switched on. (Standards Mode)
 
 
+判断Javascript对象是否存在
+--------------------------
+
+  if (!myObj) {
+  　　　　var myObj = { };
+  　　}
+
 
 
