@@ -56,23 +56,6 @@ if (myObj == undefined) {
 　　}
 </pre></code>
 
-<pre><code>
-  if (!myObj) {
-  　　　　var myObj = { };
-  　　}
-</pre></code>
-
-<pre><code>
-  if (!myObj) {
-  　　　　var myObj = { };
-  　　}
-</pre></code>
-
-<pre><code>
-  if (!myObj) {
-  　　　　var myObj = { };
-  　　}
-</pre></code>
 
 
 
