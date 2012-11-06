@@ -1,10 +1,10 @@
 something
 =================
-*markdown 語法說明*
+markdown 語法說明
 -----------------
 資料來源 http://markdown.tw/
 
-*Sublime Text 2*
+Sublime Text 2
 ------------------
 [mrkt 的程式學習筆記-Sublime Text 2][] <br/>
 [前端觀察-一些必不可少的Sublime Text 2插件]
