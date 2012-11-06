@@ -32,9 +32,47 @@ document.compatMode正好派上用場，它有兩種可能的返回值：BackCom
 判断Javascript对象是否存在
 --------------------------
 
+<pre><code>
+if (!myObj) {
+  　　　　var myObj = { };
+  　　}
+</pre></code>
+
+<pre><code>
+if (!window.myObj) {
+　　　　var myObj = { };
+　　}
+</pre></code>
+
+<pre><code>
+if (typeof myObj == "undefined") {
+　　　　var myObj = { };
+　　}
+</pre></code>
+
+<pre><code>
+if (myObj == undefined) {
+　　　　var myObj = { };
+　　}
+</pre></code>
+
+<pre><code>
   if (!myObj) {
   　　　　var myObj = { };
   　　}
+</pre></code>
+
+<pre><code>
+  if (!myObj) {
+  　　　　var myObj = { };
+  　　}
+</pre></code>
+
+<pre><code>
+  if (!myObj) {
+  　　　　var myObj = { };
+  　　}
+</pre></code>
 
 
 
