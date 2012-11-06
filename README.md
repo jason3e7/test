@@ -6,11 +6,12 @@ something
 
 *Sublime Text 2*
 ------------------
-[mrkt 的程式學習筆記 Sublime Text 2][]
+[mrkt 的程式學習筆記-Sublime Text 2][]
+[前端觀察-一些必不可少的Sublime Text 2插件]
 
 
-[mrkt 的程式學習筆記 Sublime Text 2]:http://kevintsengtw.blogspot.tw/p/sublime-text-2.html
-
+[mrkt 的程式學習筆記-Sublime Text 2]:http://kevintsengtw.blogspot.tw/p/sublime-text-2.html
+[前端觀察-一些必不可少的Sublime Text 2插件]:http://www.qianduan.net/essential-to-sublime-the-text-2-plugins.html
 
 document.compatMode
 ------------------
