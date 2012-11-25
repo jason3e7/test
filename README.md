@@ -72,7 +72,7 @@ $text:15px;
 body{
   font-size:$text;
 }
-#top{
+/#top{
   width:$text;
 }
 
