@@ -66,9 +66,7 @@ SASS的語法分成兩種，一種叫做scss，另一種就是sass，sass這個�
 變數的命名第一個字一定要是$開頭
 
 <pre><code>
-
- $text:15px;
-	 
+ $text:15px;	 
  body{
 	font-size:$text;
 	}
@@ -81,11 +79,9 @@ SASS的語法分成兩種，一種叫做scss，另一種就是sass，sass這個�
 ###函式Mixin###
 
 <pre><code>
-
  @mixin border-radius($angle){
 	border-radius:$angle;
 	-webkit-border-radius:$angle;
 	-moz-border-radius:$angle;
 	}
-
 </pre></code>
