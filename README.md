@@ -107,37 +107,75 @@ SASS的語法分成兩種，一種叫做scss，另一種就是sass，sass這個�
 ###繼承Extend###
 
 <pre><code>
-table.hl {
-  margin: 2em 0;
-  td.ln {
-    text-align: right;
-  }
+
+//SCSS
+.error {
+  border: 1px #f00;
+  background: #fdd;
+}
+.error.intrusion {
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
-table.hl {
-  margin: 2em 0;
+.badError {
+  @extend .error;
+  border-width: 3px;
 }
-table.hl td.ln {
-  text-align: right;
+
+//CSS
+
+.error, .badError {
+  border: 1px #f00;
+  background: #fdd;
 }
+
+.error.intrusion,
+.badError.intrusion {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.badError {
+  border-width: 3px;
+}
+
 </pre></code>
 
 ###巢狀撰寫Nesting###
 
 <pre><code>
-body{
-	text:{
-		align:center;
-		indent:10px;
-		transform:none;
-	}
+//SCSS
+@mixin table-base {
+  th {
+    text-align: center;
+    font-weight: bold;
+  }
+  td, th {padding: 2px}
 }
 
-body {
-  text-align: center;
-  text-indent: 10px;
-  text-transform: none; }
+@mixin left($dist) {
+  float: left;
+  margin-left: $dist;
+}
 
+#data {
+  @include left(10px);
+  @include table-base;
+}
+
+//CSS
+#data {
+  float: left;
+  margin-left: 10px;
+}
+#data th {
+  text-align: center;
+  font-weight: bold;
+}
+#data td, #data th {
+  padding: 2px;
+}
 </pre></code>
 
 
