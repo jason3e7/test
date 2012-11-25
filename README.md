@@ -67,7 +67,7 @@ SASS的語法分成兩種，一種叫做scss，另一種就是sass，sass這個�
 
 <pre><code>
 
-$text:15px;
+ $text:15px;
 	 
  body{
 	font-size:$text;
