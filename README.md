@@ -57,5 +57,8 @@ if (myObj == undefined) {
 </pre></code>
 
 
+SASS
+------------------
 
+SASS的語法分成兩種，一種叫做scss，另一種就是sass，sass這個語法的特色就是他不需要大括弧，而是用跟Python一樣的縮排方式取代大括弧的功用，至於scss則是跟一般的CSS語法一樣要有大括弧。
 
