@@ -84,4 +84,61 @@ SASS的語法分成兩種，一種叫做scss，另一種就是sass，sass這個�
 	-webkit-border-radius:$angle;
 	-moz-border-radius:$angle;
 	}
+
+ #box{
+	@include border-radius(10px);
+ }
+
+ //如果你要傳入多個參數可以用逗號分開
+
+@mixin border-radius($angle){
+	#box{
+		border-radius:10px;
+		-moz-border-radius:10px;
+		-webkit-border-radius:10px;
+	}
+}
+ 
+@include border-radius(10px);
+
+ //也可以填一段完整的CSS語法進去
 </pre></code>
+
+###繼承Extend###
+
+<pre><code>
+table.hl {
+  margin: 2em 0;
+  td.ln {
+    text-align: right;
+  }
+}
+
+table.hl {
+  margin: 2em 0;
+}
+table.hl td.ln {
+  text-align: right;
+}
+</pre></code>
+
+###巢狀撰寫Nesting###
+
+<pre><code>
+body{
+	text:{
+		align:center;
+		indent:10px;
+		transform:none;
+	}
+}
+
+body {
+  text-align: center;
+  text-indent: 10px;
+  text-transform: none; }
+
+</pre></code>
+
+
+
