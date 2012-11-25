@@ -33,26 +33,26 @@ document.compatMode正好派上用場，它有兩種可能的返回值：BackCom
 --------------------------
 
 <pre><code>
-	if (!myObj) {
-	  　　　　var myObj = { };
+if (!myObj) {
+	var myObj = { };
 	  　　}
 </pre></code>
 
 <pre><code>
-	if (!window.myObj) {
-	　　　　var myObj = { };
+if (!window.myObj) {
+	var myObj = { };
 	　　}
 </pre></code>
 
 <pre><code>
-	if (typeof myObj == "undefined") {
-	　　　　var myObj = { };
+if (typeof myObj == "undefined") {
+	var myObj = { };
 	　　}
 </pre></code>
 
 <pre><code>
-	if (myObj == undefined) {
-	　　　　var myObj = { };
+if (myObj == undefined) {
+	var myObj = { };
 	　　}
 </pre></code>
 
@@ -67,13 +67,13 @@ SASS的語法分成兩種，一種叫做scss，另一種就是sass，sass這個�
 
 <pre><code>
 
-	$text:15px;
+$text:15px;
 	 
-	body{
-	  font-size:$text;
+ body{
+	font-size:$text;
 	}
-	#top{
-	  width:$text;
+ #top{
+	width:$text;
 	}
 
 </pre></code>
@@ -82,10 +82,10 @@ SASS的語法分成兩種，一種叫做scss，另一種就是sass，sass這個�
 
 <pre><code>
 
-	@mixin border-radius($angle){
-	  border-radius:$angle;
-		-webkit-border-radius:$angle;
-		-moz-border-radius:$angle;
+ @mixin border-radius($angle){
+	border-radius:$angle;
+	-webkit-border-radius:$angle;
+	-moz-border-radius:$angle;
 	}
 
 </pre></code>
