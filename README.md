@@ -59,6 +59,8 @@ if (myObj == undefined) {
 
 SASS
 ------------------
+
+中文compass簡報
 http://www.slideshare.net/kurotanshi/compass-sass#btnNext
 
 
@@ -69,7 +71,7 @@ http://wp.xdite.net/?p=2097
 
 http://blog.visioncan.com/2011/compass-sass-your-css/
 
-//完整的介紹了compass
+完整的介紹了compass
 http://www.im-ux.com/archives/1222
 
 SASS的語法分成兩種，一種叫做scss，另一種就是sass，sass這個語法的特色就是他不需要大括弧，而是用跟Python一樣的縮排方式取代大括弧的功用，至於scss則是跟一般的CSS語法一樣要有大括弧。SASS提供兩種編譯方式，一種是手動編譯，一種是監視編譯(–watch)，手動編譯就是當你撰寫好CSS時下指令去做編譯，監視編譯則是你指令一個目錄，當此目錄裡面的*.scss檔案有改變時（新增、覆寫等等），就會自動去做編譯的動作。
